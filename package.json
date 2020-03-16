@@ -25,6 +25,7 @@
     "awesome-typescript-loader": "^5.2.1",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
+    "svg-sprite-loader": "^4.2.1",
     "yarn": "^1.22.4"
   },
   "devDependencies": {
