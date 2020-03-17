@@ -3,4 +3,4 @@ import ReactDom from 'react-dom'
 // import Button from './button'
 import Icon from './icon'
 
-ReactDom.render(<div><Icon name="wechat"/></div>,document.querySelector('#root'));
+ReactDom.render(<div><Icon name="alipay"/></div>,document.querySelector('#root'));
