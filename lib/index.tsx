@@ -6,7 +6,7 @@ import Icon from './icon'
 const fn:React.MouseEventHandler =(e)=>{
     console.log(e)
 }
-ReactDom.render(<div> <Icon name="qq"
+ReactDom.render(<div> <Icon name="qq" className="fuck"
 onClick={fn}
 onMouseEnter={() => console.log('enter')}
 onMouseLeave={() => console.log('leave')}
