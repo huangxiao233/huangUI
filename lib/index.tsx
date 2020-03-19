@@ -6,4 +6,9 @@ import Icon from './icon'
 const fn:React.MouseEventHandler =(e)=>{
     console.log(e)
 }
-ReactDom.render(<div><Icon name="alipay" onClick={fn}/></div>, document.querySelector('#root'));
+ReactDom.render(<div> <Icon name="qq"
+onClick={fn}
+onMouseEnter={() => console.log('enter')}
+onMouseLeave={() => console.log('leave')}
+onTouchStart={() => console.log('touch')}
+/></div>, document.querySelector('#root'));
