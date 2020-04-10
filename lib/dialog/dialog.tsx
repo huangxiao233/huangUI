@@ -1,8 +1,5 @@
-import React, { Fragment, ReactElement, ReactNode } from 'react'
+import React, { Fragment } from 'react'
 
-interface props {
-
-}
 
 const classes = (pre: string) => {
     return (name?: string) => {
@@ -12,7 +9,7 @@ const classes = (pre: string) => {
 const sc = classes('huangUI')
 
 
-const Dialog: React.FunctionComponent<Props> = (props) => {
+const Dialog: React.FunctionComponent = (props) => {
 
     return (
         <Fragment>>

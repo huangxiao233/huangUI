@@ -1,7 +1,7 @@
 const path = require('path')
 module.exports = {
     entry:{
-        index:'./lib/index.tsx'
+        index:'./example.tsx'
     },
     resolve:{
         extensions:['.ts','.tsx','.js','.jsx']   //找以这个为结尾的
@@ -18,7 +18,7 @@ module.exports = {
                 loader:'awesome-typescript-loader'
             },
             {
-                test: /\.svg?$/,
+                test: /\.svg$/,
                 loader:'svg-sprite-loader'
             },
             {
